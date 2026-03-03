@@ -9,6 +9,8 @@ type MovieResp = {
   cast?: string[]
   reviews?: string[]
   sentiment?: { score: number | null; classification: string; summary: string }
+  praises?: string[]
+  criticisms?: string[]
   error?: string
 }
 
